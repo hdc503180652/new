@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+
+	android:id="@+id/ll_today"
+	android:background="#63b6bd"
+   >
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:id="@+id/ll_today"
+		android:background="#63b6bd"
+        >
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_alignBaseline="@+id/txt_birthday"
+			android:layout_alignBottom="@+id/txt_birthday"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true"
+			android:background="#63b6bd">
+
+			<TextView
+				android:id="@+id/textView16"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/txt_sex"
+				android:layout_alignStart="@+id/txt_sex"
+				android:layout_below="@+id/textView"
+				android:layout_marginRight="50dp"
+				android:layout_marginTop="33dp"
+				android:text="到岗时间：随时" />
+
+			<TextView
+				android:id="@+id/txt_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="8dp"
+				android:layout_toRightOf="@+id/img_photo"
+				android:text="求职意向："
+				android:textSize="20dp" />
+
+
+			<TextView
+				android:id="@+id/txt_birthday"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignBottom="@+id/txt_sex"
+				android:layout_alignParentEnd="true"
+				android:layout_alignParentRight="true"
+				android:layout_alignTop="@+id/txt_sex"
+				android:layout_marginEnd="50dp"
+				android:layout_marginRight="50dp"
+				android:text="求职地点：福州" />
+
+			<TextView
+				android:id="@+id/txt_sex"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignEnd="@+id/txt_name"
+				android:layout_alignRight="@+id/txt_name"
+				android:layout_below="@+id/txt_name"
+				android:layout_marginTop="36dp"
+				android:text="期望薪资：面议" />
+
+			<TextView
+				android:id="@+id/textView"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/txt_sex"
+				android:layout_alignStart="@+id/txt_sex"
+				android:layout_below="@+id/txt_sex"
+				android:layout_marginRight="50dp"
+				android:layout_marginTop="33dp"
+				android:text="职能：安卓开发" />
+			<TextView
+				android:id="@+id/textView4"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:layout_alignBaseline="@+id/textView"
+				android:layout_alignBottom="@+id/textView"
+				android:layout_alignLeft="@+id/txt_birthday"
+				android:layout_alignStart="@+id/txt_birthday"
+				android:text="行业：贸易/进出口" />
+
+			<TextView
+				android:id="@+id/textView10"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+
+				android:text="工作类型：全职"
+				android:layout_alignLeft="@+id/textView4"
+				android:layout_alignStart="@+id/textView4"
+				android:layout_alignTop="@+id/textView16"
+				android:layout_alignBottom="@+id/textView16" />
+
+
+
+
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/textView16"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentStart="true"
+				android:layout_marginTop="44dp"
+				android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+				>
+
+
+
+
+				<TextView
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="1dp"
+					android:id="@+id/textView7"
+					android:layout_width="wrap_content"
+					android:layout_height="36dp"
+					android:textSize="18dp"
+					android:text="自我评价：" />
+
+
+				<TextView
+					android:id="@+id/textView21"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/zhuanye"
+					android:layout_marginTop="19dp"
+					android:layout_marginLeft="20dp"
+					android:layout_below="@+id/textView7"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentStart="true" />
+
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+
+
+	</ScrollView>
+
+</LinearLayout>

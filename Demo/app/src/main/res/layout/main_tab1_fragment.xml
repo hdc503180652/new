@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    android:id="@+id/ll_today">
+
+	<RelativeLayout
+		android:id="@+id/baseinfo_content_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#63b6bd">
+
+		<ImageView
+			android:id="@+id/img_photo"
+			android:layout_width="130dp"
+			android:layout_height="130dp"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentTop="true"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="10dp"
+			android:contentDescription="@string/app_name"
+			android:src="@drawable/ic_launcher" />
+
+		<TextView
+			android:id="@+id/txt_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignTop="@+id/img_photo"
+			android:layout_marginLeft="12dp"
+			android:layout_toRightOf="@+id/img_photo"
+			android:text="姓名：陈婷" />
+
+		<TextView
+			android:id="@+id/txt_birthday"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/txt_sex"
+			android:layout_alignStart="@+id/txt_sex"
+			android:layout_below="@+id/txt_sex"
+			android:layout_marginTop="26dp"
+			android:text="出生年月：1995.12.8" />
+
+		<TextView
+			android:id="@+id/txt_sex"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/txt_name"
+			android:layout_below="@+id/txt_name"
+			android:layout_marginTop="20dp"
+			android:text="性别：女" />
+
+
+		<RelativeLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@+id/img_photo"
+			android:layout_alignParentBottom="true"
+			android:layout_alignParentEnd="true"
+			android:layout_alignParentRight="true"
+			android:layout_alignStart="@+id/img_photo"
+			android:layout_below="@+id/img_photo"
+			android:layout_marginTop="32dp">
+
+			<TextView
+				android:id="@+id/textView8"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/textView6"
+				android:layout_alignStart="@+id/textView6"
+				android:layout_below="@+id/textView6"
+				android:layout_marginTop="31dp"
+				android:text="电话号码：18759012221" />
+
+			<TextView
+				android:id="@+id/textView9"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="最近工作："
+				android:textSize="20dp"
+				android:layout_alignBaseline="@+id/textView5"
+				android:layout_alignBottom="@+id/textView5"
+				android:layout_toRightOf="@+id/textView5"
+				android:layout_toEndOf="@+id/textView5" />
+
+			<TextView
+				android:id="@+id/textView11"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="职位：安卓开发工程师"
+				android:layout_marginTop="26dp"
+				android:layout_below="@+id/textView9"
+				android:layout_alignLeft="@+id/textView12"
+				android:layout_alignStart="@+id/textView12" />
+
+			<TextView
+				android:id="@+id/textView14"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="时间：2015.4——2017.7"
+				android:layout_marginTop="20dp"
+				android:layout_below="@+id/textView11"
+				android:layout_alignLeft="@+id/textView11"
+				android:layout_alignStart="@+id/textView11" />
+
+			<TextView
+				android:id="@+id/textView13"
+				android:layout_width="wrap_content"
+				android:layout_marginTop="20dp"
+				android:layout_height="wrap_content"
+				android:text="行业：贸易/进出口"
+				android:layout_below="@+id/textView12"
+				android:layout_toRightOf="@+id/textView5"
+				android:layout_toEndOf="@+id/textView5"
+				/>
+
+			<TextView
+				android:id="@+id/textView12"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:text="公司：深圳有棵树科技有限公司"
+				android:layout_below="@+id/textView14"
+				android:layout_alignLeft="@+id/textView13"
+				android:layout_alignStart="@+id/textView13" />
+
+			<TextView
+				android:id="@+id/textView6"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignLeft="@+id/textView2"
+				android:layout_alignStart="@+id/textView2"
+				android:layout_below="@+id/textView2"
+				android:layout_marginTop="27dp"
+				android:text="学校：武汉工程大学" />
+
+			<TextView
+				android:layout_marginLeft="10dp"
+				android:layout_marginStart="10dp"
+				android:id="@+id/textView15"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="学历：本科"
+				android:layout_above="@+id/textView8"
+				android:layout_toRightOf="@+id/textView8"
+				android:layout_alignTop="@+id/textView6" />
+
+			<TextView
+				android:id="@+id/textView5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="37dp"
+				android:text=""
+				android:layout_below="@+id/textView8"
+				android:layout_alignLeft="@+id/textView8"
+				android:layout_alignStart="@+id/textView8" />
+
+
+			<TextView
+				android:id="@+id/textView2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_alignParentStart="true"
+				android:layout_alignParentTop="true"
+				android:layout_marginLeft="12dp"
+				android:layout_marginStart="12dp"
+				android:text="期望工资 ： 6500" />
+
+			<TextView
+				android:id="@+id/txt_birthday"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="邮箱：2394419445@qq.com"
+				android:layout_alignBaseline="@+id/textView8"
+				android:layout_alignBottom="@+id/textView8"
+				android:layout_toRightOf="@+id/textView8"
+				android:layout_toEndOf="@+id/textView8"
+				android:layout_marginLeft="10dp"
+				android:layout_marginStart="10dp" />
+
+
+			<TextView
+				android:id="@+id/txt_birthday"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignBottom="@+id/txt_birthday"
+				android:layout_alignParentEnd="true"
+				android:layout_alignParentRight="true"
+				android:text="现居住地 ： 台江区 上海新苑"
+				android:layout_alignParentTop="true"
+				android:layout_alignLeft="@+id/textView15"
+				android:layout_alignStart="@+id/textView15" />
+
+		</RelativeLayout>
+
+
+	</RelativeLayout>
+</LinearLayout>

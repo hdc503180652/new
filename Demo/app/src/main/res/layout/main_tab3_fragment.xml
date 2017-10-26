@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="#63b6bd"
+	>
+
+
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:layout_height="match_parent">
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="项目经验"
+				android:textSize="25sp"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="2015/4-2017/5	     海豚供应链"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="所属公司：	深圳有棵树科技有限公司"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="项目描述：	该项目为进口母婴产品海外平台供应链采购APP"
+				android:textSize="13sp"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="86dp"
+				android:layout_marginTop="3dp"
+				android:textSize="13sp"
+				android:text=" 功能主要分为主页, 采购进货, 销售发货, 微仓库存, 用户中心五大模块。"
+				/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="责任描述：	技术要点"
+				android:textSize="13sp"
+				/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="86dp"
+				android:layout_marginTop="3dp"
+				android:textSize="13sp"
+				android:text="@string/haitun"
+				/>
+
+
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="50dp"
+				android:text="2015/4-2016/1	维康氏"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="所属公司：	深圳有棵树科技有限公司"
+				/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="项目描述：              维康氏app是一款健康类的软件，通过维康氏app你可以及时的向专业医生咨询，"
+				android:textSize="13sp"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="86dp"
+				android:layout_marginTop="3dp"
+				android:textSize="13sp"
+				android:text=" 了解更多健康知识以及自己的身体情况。"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="责任描述：	第三方微信登录, 一键分享, 购物车, 联系客服, 问题解答, 待评价, 个人信息修改, 商品评价详情,浏览记录"
+				android:textSize="13sp"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="86dp"
+				android:layout_marginTop="3dp"
+				android:textSize="13sp"
+				android:text="@string/weikang"
+				/>
+
+
+
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="50dp"
+				android:text="2015/4-2016/1	维氏教育"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="项目描述：              这是一款教育学习软件，可以获取最新的学习咨询，有利于提高孩子们学习的积极性，主动性，模块主要分为教育资讯，课程信息，机构地图，课程优惠等"
+				android:textSize="13sp"
+				/>
+
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_marginTop="20dp"
+				android:text="责任描述：	主要负责功能模块的实现，实现公共代码抽取，以及处理bug"
+				android:textSize="13sp"
+				/>
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="86dp"
+				android:layout_marginTop="3dp"
+				android:textSize="13sp"
+				android:text="@string/weishi"
+				/>
+
+		</LinearLayout>
+
+	</ScrollView>
+</LinearLayout>
